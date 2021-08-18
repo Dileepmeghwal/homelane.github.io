@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #2828;
+    position: relative;
+    z-index: 10;
+}
+.bar{
+    width: 100%;
+    height: 35px;
+    background-color: #000000;
+}
+.bar p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    line-height: 32px;
+}
+nav{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+nav .fa-accusoft{
+    float: left;
+    font-size: 30px;
+    margin-top: 18px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #282828;
+    transition: 0.3s;
+}
+nav span{
+    margin-right: 14px;
+    cursor: pointer;
+}
+/* End header */
+
+/* Main */
+.main{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.main .left{
+    width: 30%;
+    float: left;
+    padding: 80px 10%;
+}
+.main .left h1{
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #282828;
+}
+.main .left p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #282828;
+}
+.main .right{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.main .right img{
+    width: 100%;
+}
+button{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    background: transparent;
+    padding: 8px 20px;
+    margin-top: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+button span{
+    padding-left: 5px;
+    transition: 0.4s;
+}
+button span:hover{
+    transform: translateX(50%);
+}
+
+/* Products */
+.product{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.title{
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    padding: 50px 0;
+}
+.title h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.title p{
+    font-size: 15px;
+    color: #969696;
+}
+
+.chair{
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.chair h4{
+    margin: 6px 0;
+    font-weight: 500;
+}
+.chair p{
+    margin: 0;
+    font-size: 14px;
+}
+.chair img{
+    width: 100%;
+}
+.load{
+    clear: both;
+    width: 140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* stylish-chair */
+.stylish-chair{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.stylish-chair .left{
+    width: 45%;
+    float: left;
+}
+.stylish-chair .left img{
+    width: 100%;
+}
+.stylish-chair .right{
+    width: 45%;
+    float: left;
+    padding: 130px 0;
+    text-align: center;
+}
+.stylish-chair .right h1,
+.stylish-chair .text h1{
+    text-transform: capitalize;
+}
+.stylish-chair .right p,
+.stylish-chair .text p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.stylish-chair .text{
+    clear: both;
+    width: 45%;
+    float: left;
+    padding: 130px 0;
+    text-align: center;
+}
+.stylish-chair .img{
+    width: 45%;
+    float: right;
+}
+.stylish-chair .img img{
+    width: 100%;
+}
+
+/* Modern */
+.modern{
+    width: 100%;
+    padding-top: 15px;
+    background-color: #f2f1f4;
+}
+.modern-fix{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 14%;
+}
+.modern-fix .left{
+    width: 45%;
+    float: left;
+    position: relative;
+    top: -155px;
+    left: 15%;
+}
+.modern-fix .left .sale{
+    font-size: 174px;
+    color: #f9f8fa;
+    font-weight: 600;
+    position: absolute;
+    top: 12%;
+    letter-spacing: 1px;
+}
+.modern-fix .left h2{
+    font-weight: 200;
+    color: #fc6800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    position: relative;
+    z-index: 20;
+}
+.modern-fix .left span{
+    color: #fc6800;
+    font-size: 60px;
+    font-weight: 700;
+}
+.modern-fix .right{
+    width: 50%;
+    float: right;
+}
+.modern-fix .right img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    right: 80px;
+}
+.badge{
+    width: 80px;
+    height: 80px;
+    background-color: #fc6800;
+    color: #fff;
+    border-radius: 100%;
+    padding: 10px 10;
+    position: relative;
+    top: -330px;
+    left: 50%;
+    z-index: 10;
+}
+.badge h2{
+    font-weight: 300;
+    text-align: center;
+    margin-top: -1px;
+}
+
+/* Blog */
+.fix-blog{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.blog-left{
+    width: 45%;
+    float: left;
+}
+.blog-right{
+    width: 45%;
+    float: right;
+}
+.blog-left img,
+.blog-right img{
+    width: 100%;
+}
+.blog-left h3,
+.blog-right h3{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+.time{
+    font-size: 14px;
+    font-weight: 500;
+}
+.blog-left p,
+.blog-right p{
+    color: #969696;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* .newsletter */
+.newsletter{
+    max-width: 1250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+input{
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    padding: 12px 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+.newsletter label .fa-send-o{
+    font-size: 20px;
+    margin-top: 30px;
+    position: relative;
+    transition: 0.4s;
+    left: -20px;
+    cursor: pointer;
+    color: #969696;
+}
+
+/* Service */
+.service{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 40px 0;
+    margin-bottom: 70px;
+}
+.service .box{
+    width: 28%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    text-transform: capitalize;
+}
+.service .box img{
+    width: 30%;
+}
+.space{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.service .box h3{
+    font-weight: 500;
+    color: #282828;
+}
+.service .box span{
+    text-transform: uppercase;
+}
+.service .box p{
+    font-size: 15px;
+}
+.service .box a{
+    color: #282828;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    
+    background-color: #f8f8f8;
+    padding: 36px 0;
+    margin-top: 60px;
+}
+.fix-footer{
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 40px;
+    line-height: 26px;
+}
+
+.fix-footer .footer-box h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #282828;
+}
+.fix-footer .footer-box p{
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 26px;
+}
+.fix-footer .footer-box .links{
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0;
+    transition: 0.3s;
+    font-size: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: #282828;
+    transition: 0.3s;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.footer-box{
+    width: 23%;
+    float: left;
+    color: #282828;
+}
+.move{
+    margin-right: 7%;
+}
+.footer-logo{
+    font-size: 40px;
+    margin-top: -40px;
+}
+/* copy */
+.copy{
+    width: 100%;
+    background-color: #000000;
+    color: #f2f1f4;
+    padding: 3px 0;
+}
+.copy p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+/* responsive */
+nav{
+    position: relative;
+}
+#icon{
+    float: right;
+    margin-top: 25px;
+    font-size: 22px;
+    display: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    nav ul{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px 0;
+        background-color: #f8f8f8;
+        text-align: center;
+        display: none;
+        margin: 0;
+    }
+    .navigation li{
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        line-height: 50px;
+    }
+    .navigation li a:hover{
+        padding: 6px 16px;
+        border: 1px solid #282828;
+    }
+    #icons{
+        margin-left: 15px;
+    }
+    #icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main .left{
+        width: 45%;
+        margin: 0 0%;
+        padding: 30px 0px;
+        margin-left: 3%;
+    }
+    .main .right{
+        width: 48%;
+        margin-top: 60px;
+    }
+    .product .chair{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+    .stylish-chair .left{
+        width: 45%;
+        margin: 0 2.5%;
+
+    }
+    .stylish-chair .right{
+        width: 45%;
+        margin: 0 2.5%;
+        margin-top: -58px;
+    }
+    .stylish-chair .text{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+    .stylish-chair .img{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+    .modern-fix .left{
+        width: 45%;
+        margin: 0 2.5%;
+        margin-left: -10px;
+        clear: both;
+    }
+    .modern-fix .right{
+        width: 45%;
+        margin: 0 2.5%;
+    }
+    .modern-fix .left .sale{
+        font-size: 140px;
+        color: #f9f8fa;
+        font-weight: 600;
+        position: absolute;
+        top: 12%;
+        letter-spacing: 1px;
+    }
+    .modern-fix .left h2{
+        font-weight: 400;
+        color: #fc6800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 20px;
+        position: relative;
+        margin-top: 50px;
+        z-index: 20;
+    }
+    .modern-fix .left span{
+        color: #fc6800;
+        font-size: 60px;
+        font-weight: 700;
+    }
+    .badge{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: -180px;
+        left: 40%;
+    }
+    .badge h2{
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        margin-top: -1px;
+    }
+    .footer .footer-box{
+        width: 22%;
+        margin: 0 1.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        margin-left: 10px;
+    }
+    .main{
+        height: 100%;
+        padding: 30px 0;
+    }
+    .main .left{
+        width: 80%;
+        text-align: center;
+        margin: 0 10%;
+    }
+    .main .right{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .main .left h1{
+        font-size: 24px;
+    }
+    .main .left p{
+        font-size: 14px;
+    }
+    button{
+        font-size: 14px;
+    }
+    .title{
+        text-align: center;
+        margin: 0 10%;
+    }
+    .title h2{
+        font-size: 25px;
+    }
+    .title p{
+        font-size: 14px;
+    }
+
+    .product .chair{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .stylish-chair .left{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .stylish-chair .right{
+        width: 70%;
+        margin: 0 15%;
+        margin-top: -50px;
+    }
+    .stylish-chair .text{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: -90px;
+    }
+    .stylish-chair .right h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .stylish-chair .right p{
+        font-size: 14px;
+    }
+    .stylish-chair .text h1{
+        font-size: 26px;
+        font-weight: 500;
+    }
+    .stylish-chair .text p{
+        font-size: 14px;
+    }
+    .stylish-chair .img{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: -150px;
+    }
+    .modern-fix .left{
+        width: 80%;
+        text-align: center;
+        margin-top: 70px;
+        clear: both;
+    }
+    .modern-fix .sale{
+        font-size: 100px;
+        text-align: center;
+        width: 96%;
+        margin-top: 120px;
+    }
+    .modern-fix .right{
+        width: 60%;
+        position: relative;
+        margin-top: 30px;
+    }
+    .badge{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: -155px;
+        left: 40%;
+        padding: 10px 10px;
+    }
+    .badge h2{
+        font-weight: 300;
+        font-size: 13px;
+        text-align: center;
+        margin-top: -1px;
+    }
+    .modern-fix .left span{
+        color: #fc6800;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .service .box{
+        width: 80%;
+        margin: 0 10%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .fix-footer .footer-box{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .fix-footer .footer-box h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .fix-footer .footer-box p{
+        font-size: 14px;
+    }
+    .fix-blog .blog-left{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .fix-blog .blog-right{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 35px;
+    }
+    .newsletter input{
+        width: 80%;
+        margin-top: 80px;
+        font-size: 14px;
+        color: #969696;
+    }
+
+}
