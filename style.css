@@ -706,8 +706,10 @@ nav{
         margin: 0 10%;
         margin-top: 35px;
     }
-    .fix-blog .blog-left p,
-    .fix-blog .blog-right p{
+    .blog-left p{
+        font-size: 14px;
+    }
+    .blog-right p{
         font-size: 14px;
     }
     .newsletter input{
